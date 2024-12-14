@@ -252,6 +252,9 @@ form button {
             <button type="submit">Registrar Equipo</button>
         </form>
         
+        
+        <button onclick="window.location.href='buscar.jsp'">Buscar</button>
+        
     </div>
 </body>
 </html>
