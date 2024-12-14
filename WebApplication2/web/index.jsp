@@ -155,7 +155,10 @@ form button {
     </style>
 </head>
 <body>
+    
+    
     <div class="container">
+        <button onclick="window.location.href='logout.jsp'">Cerrar Sesion</button>
         <h1>Gestión de Equipos</h1>
         
         <!-- Tabla de equipos -->
@@ -213,6 +216,8 @@ form button {
                         <button onclick="window.location.href='eliminarEquipo.jsp?id=<%= rs.getInt("idEquipo") %>';">Eliminar Equipo</button>
                     </td>
                 </tr>
+                
+                
                 <%
                     }
                 } catch (ClassNotFoundException e) {
